@@ -1,0 +1,23 @@
+{
+    "name": "jhoncorella/srphash",
+    "description": "Esta pequeña biblioteca está diseñada para simplificar la incorporación del sistema de hash SHA-256 necesario para permitir el acceso web a las cuentas en el gamemode Super RolePlay 2 del modo de juego SA-MP de GTA San Andreas. En resumen, este complemento busca facilitar la creación de logins de usuarios, siendo especialmente útil si estás considerando establecer una Unidad de Control de Personajes (PCU) para tu gamemode base Super RolePlay 2. La biblioteca proporciona una solución amigable, ideal para aquellos sin experiencia o que deseen experimentar con algo diferente.Esta pequeña biblioteca está diseñada para simplificar la incorporación del sistema de hash SHA-256 necesario para permitir el acceso web a las cuentas en el gamemode Super RolePlay 2 del modo de juego SA-MP de GTA San Andreas. En resumen, este complemento busca facilitar la creación de logins de usuarios, siendo especialmente útil si estás considerando establecer una Unidad de Control de Personajes (PCU) para tu gamemode base Super RolePlay 2. La biblioteca proporciona una solución amigable, ideal para aquellos sin experiencia o que deseen experimentar con algo diferente.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JhonCorella\\Srphash\\": "src/"
+        },
+        "files": [
+            "src/srphash.php"
+        ]       
+    },
+    "authors": [
+        {
+            "name": "Jhon Corella"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0.28"
+    }
+}
